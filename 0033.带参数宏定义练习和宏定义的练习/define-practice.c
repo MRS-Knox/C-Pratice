@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int int_data[2] = {0};
+int int_data[2] = {0}; 
 int out_data[3] = {0};  
 #define EXCHANGE_PARAM(int1,int2)  Exchange_Param(int1,int2);
 #define CALCULATE_REMAINDER(int1,int2)  Caculate_Remainder(int1,int2);
