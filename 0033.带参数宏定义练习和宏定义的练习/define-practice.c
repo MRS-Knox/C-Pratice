@@ -21,4 +21,4 @@ int main(){
     // printf("%d %d",out_data[0],out_data[1]);
     printf("%d",out_data[2]);
     return 0;
-}
+} 
