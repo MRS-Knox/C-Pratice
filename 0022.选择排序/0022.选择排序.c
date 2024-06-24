@@ -27,3 +27,27 @@ int main(){
         printf("%d\n",int_data[count]);     
     return 0;
 }
+
+//题目：三个数字的排序
+// #include <stdio.h>
+// 
+// int main(){
+//     int int_data[3] = {0}; 
+//     int out_data[3] = {0};
+//     int mid_num = 0;
+//     int mid_count = 0;   
+//     scanf("%d %d %d",&int_data[0],&int_data[1],&int_data[2]);
+//     for(int out_count = 0;out_count < 3;out_count++){
+//         mid_num = int_data[out_count];
+//         for(int count = out_count;count < 3;count++){  //找出待排序的最小值
+//             if(mid_num >= int_data[count]){
+//                 mid_num = int_data[count];
+//                 mid_count = count;
+//             }
+//         }
+//         int_data[mid_count] = int_data[out_count];
+//         int_data[out_count] = mid_num;       
+//     }
+//     printf("%d %d %d",int_data[0],int_data[1],int_data[2]);
+//     return 0;
+// } 
